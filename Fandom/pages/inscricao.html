@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Site OldsDrive Project">
+<meta name="keywords" content="Carros, Forza, Fandom">
+<meta name="author" content="Zé Henrique">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Forza Club - Inscrição</title>
+<link rel="stylesheet" type="text/css" href="../../assets/sitecss.css">
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="../../assets/sitejs.js"></script>
+</head>
+
+<body>
+	<header>
+		<img src="../../imgs/logo.png" alt="Logo Forza">
+		<h1>Forza Club - Inscrição</h1>
+	</header>
+
+	<nav>
+		
+	</nav>
+	<section>
+
+		<h2>Faça parte do nosso Fandom!</h2>
+		<form name="frmincricao" method="post" action="#"
+			onsubmit="return validaInscricao()">
+			<div id="info">
+				<figcaption>
+					<h4>Staff: Responsável pelo controle de tudo que é postado e
+						admissão de novos membros;</h4>
+					<h4>Tester: A função do tester será inspecionar o site e
+						comunicar a staff em casos de bugs ou erros;</h4>
+					<h4>Contribuinte: O membro contribuinte terá acesso antecipado
+						em todas as postagens,figurinhas personalizadas e rewards de
+						carros épicos;</h4>
+				</figcaption>
+			</div>
+
+
+			<fieldset class="inscricao">
+
+
+				<legend>Dados pessoais:</legend>
+				<input type="text" name="txtnome" id="nome" placeholder="Nome"><input
+					type="text" name="txtfome" id="fone"
+					placeholder="Telefone (ex:(00)9999-9999)"> <input
+					type="email" name="txtemail" id="email" placeholder="E-mail">
+				<input type="text" name="txtcpf" id="cpf"
+					placeholder="CPF (ex:000.000.000-00)"> <input type="text"
+					name="txtdata" id="data"
+					placeholder="Data Nascimento (ex:DD/MM/AAAA)">
+
+
+			</fieldset>
+
+
+			<fieldset class="radial">
+				<legend>Gênero:</legend>
+				<label for="sexo">Masculino:</label> <input type="radio"
+					name="radiosexo" id="sexo"> <label for="sexo">Feminino:</label>
+				<input type="radio" name="radiosexo" id="sexo">
+			</fieldset>
+
+
+
+			<div id="img">
+				<figcaption>
+					<h4>
+						<img src="../../imgs/logo.png" alt="Logo Forza" width="400"
+							height="400">
+					</h4>
+				</figcaption>
+			</div>
+
+			<fieldset class="inscricao">
+				<legend>Area VIP:</legend>
+				<select name="selopcao" id="vip">
+					<option value="">Desejo me tornar</option>
+					<option value="RE">Staff</option>
+					<option value="SU">Tester</option>
+					<option value="PR">Contribuinte</option>
+					<option value="SN">Prefiro não participar</option>
+
+				</select>
+				<div id="opcaoVip"></div>
+				<textarea name="txacomentario" id="comentario"
+					placeholder="Comentário..."></textarea>
+				<button type="reset">Limpar</button><button type="submit">Enviar</button>
+
+			</fieldset>
+		</form>
+
+
+	</section>
+
+	<footer></footer>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/*Configuração geral do corpo dap página*/
+body {
+	margin: 0 auto;
+	font-family: Arial;
+	background-color: #1c282e;
+}
+
+header {
+	height: 170px;
+	background-color: #1c282e;
+}
+
+header img {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px
+}
+
+header h1 {
+	float: left;
+	margin: 50px 0 0 30px;
+	font-size:50px;
+	color: #ffffff
+}
+
+nav {
+	border: 1px;
+	border-bottom: solid;
+	border-top: solid;
+	border-color: white;
+	background-color: #1c282e;
+	height: 50px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav .opcao {
+	float: left;
+	width: 23%;
+	background-color: #1c282e;
+	padding: 10px 0;
+	margin: 0 1%;
+	font-size: 26px;
+}
+
+nav .opcao:hover {
+	background-color: #72acd5;
+}
+
+footer {
+	background-color: black;
+	color: #ffff;
+	text-align: center;
+	padding: 10px;
+}
+
+section #titulos {
+	display: inline-block;
+	position: relative;
+}
+
+#titulos figcaption {
+	position: absolute;
+	top: 40px;
+	left: 80px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+#info figcaption {
+	position: absolute;
+	margin-left: 400px;
+	left: 80px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+#img figcaption {
+	position: absolute;
+	margin-left: 600px;
+	top: 434px;
+	left: 80px;
+}
+
+#titulos img {
+	width: 100%;
+	height: 70%;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 0px;
+	font-size: 20px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0px;
+	font-size: 30px;
+	color: white;
+	padding-top: 40px;
+	padding-left: 10px;
+}
+
+h5 {
+	text-align: justify;
+	font-size: 28px;
+	color: white;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.tabelaMestre {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	padding: 50px;
+	border: 0px solid white;
+}
+
+.corpoTabela {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	padding: 30px;
+	border: 03px solid white;
+}
+
+tr, td, th {
+	border: 03px solid white;
+	padding: 2px;
+}
+
+tr, td {
+	font-size: 14px;
+	background-color: #1c282e;
+}
+
+tr:nth-child(odd) {
+	background-color: #460000;
+}
+
+.inscricao {
+	width: 400px;
+	margin: left;
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.inscricao input, .inscricao textarea, .inscricao select{
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+
+
+.inscricao textarea {
+	height: 100px;
+	resize: none;
+}
+
+.inscricao button {
+	width: 30%;
+	margin: 0 10%;
+	border-color: white;
+	color: white;
+	background-color: #1c282e;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.radial{
+	width: 400px;
+	font-weight: bold;
+	color: white;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	text-align: -webkit-center;
+}
+
+.radial input{
+	margin: 5px 20px;
+}
