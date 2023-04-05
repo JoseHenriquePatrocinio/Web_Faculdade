@@ -46,6 +46,6 @@ function validaInscricao() {
 }
 
 $(document).ready(function() {
-	$("nav").load("/pages/general/menu.html");
-	$("footer").load("/pages/general/rodape.html");
+	$("nav").load("/Fandom/pages/general/menu.html");
+	$("footer").load("/Fandom/pages/general/rodape.html");
 });

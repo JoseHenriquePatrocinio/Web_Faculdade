@@ -78,9 +78,9 @@ function verificaMotivo(motivo) {
 }
 
 $(document).ready(function() {
-	$("header").load("/pages/general/cabecalho.html");
-	$("nav").load("/pages/general/menu.html");
-	$("footer").load("/pages/general/rodape.html");
+	$("header").load("/TrilhaWeb/pages/general/cabecalho.html");
+	$("nav").load("/TrilhaWeb/pages/general/menu.html");
+	$("footer").load("/TrilhaWeb/pages/general/rodape.html");
 });
 
 
